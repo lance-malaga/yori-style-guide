@@ -1,0 +1,23 @@
+:root {
+    /* colors */
+    --emerald: #26594d;
+    --black: #282828;
+    --white: #f4f4f4;
+    --tan: #e2d6c9;
+    --yellow: #ecc64f;
+    --orange: #e5a755;
+    --red: #cc5140;
+
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: 'Capuche';
+}
+@font-face {
+    font-family: 'Capuche';
+    src: url(./assets/fonts/Capuche\ Trial.otf);
+}
+body {
+    font-family: var(--primary-font);
+}
+h1 {
+    font-family: var(--secondary-font);
+}
