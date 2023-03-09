@@ -1,12 +1,15 @@
 :root {
     /* colors */
     --emerald: #26594d;
+    --dark-green: #5a8c32;
+    --matcha: #a2be52;
     --black: #282828;
     --white: #f4f4f4;
     --tan: #e2d6c9;
     --yellow: #ecc64f;
     --orange: #e5a755;
     --red: #cc5140;
+    --teal: #8ebdbd;
 
     /* fonts */
     --primary-font: 'Lato', sans-serif;
@@ -48,7 +51,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 25px;
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 20px;
 }
 .header__title {

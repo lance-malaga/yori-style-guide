@@ -2,11 +2,13 @@
 
 #link__home {
     padding-bottom: 5px;
-    border-bottom: 4px solid var(--red);
+    border-bottom: 4px solid var(--dark-green);
 }
 main {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
     margin-top: 150px;
     margin-bottom: 200px;
 }
@@ -21,10 +23,7 @@ main img {
     font-weight: var(--body-weight);
     margin-bottom: 20px;
 }
-.back_to_top__button {
-    background-color: var(--red);
-}
 footer {
     color: var(--white);
-    background-color: var(--red);
+    background-color: var(--dark-green);
 }
