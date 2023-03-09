@@ -1,0 +1,65 @@
+@import '../../global.css';
+
+#link__typography {
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--emerald);
+}
+main {
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+main > h1 {
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.typo__container {
+    display: flex;
+}
+.typo__container > * {
+    width: 50%;
+    text-align: center;
+    padding: 40px 110px 80px
+}
+.typo__capuche {
+    border: 2px solid var(--black);
+}
+.typo__capuche h1,
+.typo__capuche h2 {
+    font-family: var(--secondary-font);
+}
+.typo__capuche h1 {
+    font-size: 240px;
+}
+.typo__capuche h2 {
+    font-size: 64px;
+    margin: -55px 0 40px;
+}
+.typo__lato {
+    color: var(--white);
+    background-color: var(--black);
+}
+.typo__lato h1 {
+    font-weight: 900;
+    font-size: 200px;
+}
+.typo__lato h2 {
+    font-weight: 700;
+    font-size: 62px;
+    margin: -35px 0 40px;
+}
+.typo__container h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.typo__container p {
+    font-size: 20px;
+}
+
+.back_to_top__button {
+    background-color: var(--emerald);
+}
+footer {
+    color: var(--white);
+    background-color: var(--emerald);
+}
