@@ -19,9 +19,9 @@ main > h1 {
 .typo__container > * {
     width: 50%;
     text-align: center;
-    padding: 40px 110px 80px
+    padding: 40px 110px 80px;
 }
-.typo__capuche {
+.typo__container .typo__capuche {
     border: 2px solid var(--black);
 }
 .typo__capuche h1,
@@ -35,7 +35,7 @@ main > h1 {
     font-size: 64px;
     margin: -55px 0 40px;
 }
-.typo__lato {
+.typo__container .typo__lato {
     color: var(--white);
     background-color: var(--black);
 }
@@ -55,7 +55,44 @@ main > h1 {
 .typo__container p {
     font-size: 20px;
 }
-
+.typo__example {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    gap: 110px;
+    text-align: center;
+}
+.typo__example .typo__capuche {
+    font-family: var(--secondary-font);
+}
+.typo__example .typo__capuche h3 {
+    font-size: 36px;
+}
+.typo__example .typo__capuche p {
+    margin-top: 40px;
+    font-size: 30px;
+}
+.typo__example .typo__lato h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.typo__example .typo__lato p {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.usage {
+    display: flex;
+    gap: 40px;
+}
+.usage h2 {
+    font-weight: 300;
+    font-size: 48px;
+    height: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 6px solid var(--emerald);
+    margin-right: 160px;
+}
 .back_to_top__button {
     background-color: var(--emerald);
 }
