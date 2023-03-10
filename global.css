@@ -76,10 +76,26 @@ nav ul {
     justify-content: center;
     list-style: none;
     gap: 70px;
+    padding-bottom: 10px;
 }
 nav ul li {
-    padding-bottom: 10px;
     border-bottom: 4px solid transparent;
+    transition: 1s color ease-in-out;
+}
+#link__home:hover {
+    color: var(--dark-green);
+}
+#link__logo:hover {
+    color: var(--yellow);
+}
+#link__colours:hover {
+    color: var(--teal);
+}
+#link__typography:hover {
+    color: var(--emerald);
+}
+#link__visuals:hover {
+    color: var(--matcha);
 }
 
 /* back to top button */

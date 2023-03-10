@@ -1,6 +1,7 @@
 @import './global.css';
 
 #link__home {
+    color: var(--dark-green);
     padding-bottom: 5px;
     border-bottom: 4px solid var(--dark-green);
 }
