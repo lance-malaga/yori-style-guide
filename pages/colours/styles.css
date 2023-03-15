@@ -1,0 +1,30 @@
+@import '../../global.css';
+
+#link__colours{
+    color: var(--teal);
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--teal);
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+main img {
+    height: 100%;
+}
+.content__container {
+   width: 450px;
+}
+.content__container h1 {
+    font-size: 38px;
+    font-weight: var(--body-weight);
+    margin-bottom: 20px;
+}
+footer {
+    color: var(--black);
+    background-color: var(--teal);
+}
