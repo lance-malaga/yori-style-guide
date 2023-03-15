@@ -86,7 +86,7 @@ nav ul li {
     color: var(--dark-green);
 }
 #link__logo:hover {
-    color: var(--yellow);
+    color: var(--red);
 }
 #link__colours:hover {
     color: var(--teal);
