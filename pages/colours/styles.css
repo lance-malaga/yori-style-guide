@@ -13,16 +13,11 @@ main {
     margin-top: 150px;
     margin-bottom: 200px;
 }
-main img {
-    height: 100%;
-}
-.content__container {
-   width: 450px;
-}
-.content__container h1 {
-    font-size: 38px;
-    font-weight: var(--body-weight);
-    margin-bottom: 20px;
+
+.container h1 {
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 50px;
 }
 footer {
     color: var(--black);
