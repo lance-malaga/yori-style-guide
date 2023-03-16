@@ -5,26 +5,109 @@
     padding-bottom: 5px;
     border-bottom: 4px solid var(--matcha);
 }
-main {
+
+.page__container {
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.page__title {
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.icons, .buttons {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 150px;
-    margin-top: 150px;
-    margin-bottom: 200px;
+    align-items: center;
+    width: 100%;
 }
-main img {
-    height: 100%;
+
+.icons__headline {
+    border-bottom: 5px solid var(--matcha);
+    width: 3.5em;
 }
-.content__container {
-   width: 450px;
+
+.icons > img {
+    padding: 3em 0;
 }
-.content__container h1 {
-    font-size: 38px;
-    font-weight: var(--body-weight);
-    margin-bottom: 20px;
+
+.buttons__headline {
+    border-bottom: 5px solid var(--matcha);
+    width: 5em;
 }
-footer {
-    color: var(--black);
+
+.buttons {
+    display: flex;
+    padding: 3em 0;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.buttons__display {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.buttons__display > img {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.buttons__display > img:hover {
+    transform: scale(1.2); 
+}
+
+.imgsStyle__healine {
+    border-bottom: 5px solid var(--matcha);
+    width: 7.6em;
+}
+
+.images__style {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.images__style__first__row {
+    display: flex;
+    gap: 1em;
+    padding-top: 3em;
+}
+
+.img__veggieBwl {
+    width: 16em;
+    height: 21em;
+}
+
+.img__veggies {
+    width: 37em;
+}
+
+.images__style__second__row {
+    display: flex;
+    padding-top: 1em;
+}
+
+.img__pot {
+    width: 25em;
+    height: 19em;
+}
+
+.img__food {
+    width: 29em;
+}
+
+.img__foodPlate {
+    width: 54em;
+    padding-top: 1em;
+}
+
+.back_to_top__button, footer {
+    color: var(--white);
     background-color: var(--matcha);
 }

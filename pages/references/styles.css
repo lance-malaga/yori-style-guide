@@ -1,30 +1,41 @@
 @import '../../global.css';
 
-/* #link__colours{
-    color: var(--teal);
-    padding-bottom: 5px;
-    border-bottom: 4px solid var(--teal);
-} */
-main {
+
+.page__container {
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.page__title {
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.icons > h2 {
+    border-bottom: 5px solid var(--yellow);
+    width: 2.5em;
+}
+
+.images__style > h2 {
+    border-bottom: 5px solid var(--yellow);
+    width: 10em;
+}
+
+.links_display {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
-    margin-top: 150px;
-    margin-bottom: 200px;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    font-weight: 400;
 }
-main img {
-    height: 100%;
+
+a:hover {
+    color: var(--yellow);
 }
-.content__container {
-   width: 450px;
-}
-.content__container h1 {
-    font-size: 38px;
-    font-weight: var(--body-weight);
-    margin-bottom: 20px;
-}
-footer {
+
+.back_to_top__button, footer {
     color: var(--black);
     background-color: var(--yellow);
 }

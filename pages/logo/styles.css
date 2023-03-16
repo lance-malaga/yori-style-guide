@@ -5,26 +5,19 @@
     padding-bottom: 5px;
     border-bottom: 4px solid var(--red);
 }
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
-    margin-top: 150px;
-    margin-bottom: 200px;
+
+.page__container {
+    margin-top: 70px;
+    margin-bottom: 25px;
 }
-main img {
-    height: 100%;
+
+.page__title {
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 50px;
 }
-.content__container {
-   width: 450px;
-}
-.content__container h1 {
-    font-size: 38px;
-    font-weight: var(--body-weight);
-    margin-bottom: 20px;
-}
-footer {
+
+.back_to_top__button, footer {
     color: var(--white);
     background-color: var(--red);
 }

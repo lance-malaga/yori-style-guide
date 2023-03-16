@@ -1,6 +1,7 @@
 @import '../../global.css';
 
 #link__typography {
+    color: var(--emerald);
     padding-bottom: 5px;
     border-bottom: 4px solid var(--emerald);
 }
